@@ -20,12 +20,12 @@ Follow these steps to set up the auto-completion script:
 1. **Clone the Repository**  
    Use Git to download the script:
    ```bash
-   git clone https://github.com/yourusername/kubectl-completion.git
+   git clone https://github.com/lm2git/kubectl-auto-completion.git
    ```
 
 2. **Navigate to the Directory**  
    ```bash
-   cd kubectl-completion
+   cd kubectl-auto-completion
    ```
 
 3. **Source the Script**  
@@ -33,11 +33,11 @@ Follow these steps to set up the auto-completion script:
 
    - For Bash:
      ```bash
-     echo "source $(pwd)/kubectl-completion.sh" >> ~/.bashrc
+     echo "source $(pwd)/kubectl-auto-completion.sh" >> ~/.bashrc
      ```
    - For Zsh:
      ```bash
-     echo "source $(pwd)/kubectl-completion.sh" >> ~/.zshrc
+     echo "source $(pwd)/kubectl-auto-completion.sh" >> ~/.zshrc
      ```
 
 4. **Reload Your Shell Configuration**  
@@ -51,37 +51,6 @@ Follow these steps to set up the auto-completion script:
      source ~/.zshrc
      ```
 
-### Option 2: Manual Installation
-
-1. **Download the Script**  
-   Save the script to a directory, e.g., `~/scripts/kubectl-completion.sh`.
-
-2. **Add the Script to Your Shell**  
-   Edit your shell configuration file to source the script:
-   - For Bash:
-     ```bash
-     echo "source ~/scripts/kubectl-completion.sh" >> ~/.bashrc
-     ```
-   - For Zsh:
-     ```bash
-     echo "source ~/scripts/kubectl-completion.sh" >> ~/.zshrc
-     ```
-
-3. **Ensure Executability**  
-   ```bash
-   chmod +x ~/scripts/kubectl-completion.sh
-   ```
-
-4. **Reload Your Shell Configuration**  
-   Apply the changes:
-   - For Bash:
-     ```bash
-     source ~/.bashrc
-     ```
-   - For Zsh:
-     ```bash
-     source ~/.zshrc
-     ```
 
 ### Verify Functionality
 
@@ -107,7 +76,7 @@ Follow these steps to set up the auto-completion script:
 
 2. Optionally, delete the cloned repository or script file:
    ```bash
-   rm -rf /path/to/kubectl-completion
+   rm -rf /path/to/kubectl-auto-completion
    ```
 
 3. Reload your shell configuration:
@@ -122,7 +91,7 @@ Follow these steps to set up the auto-completion script:
   - Verify that `kubectl` is installed and configured.
   - Ensure the script path is correct and the file is executable:
     ```bash
-    chmod +x /path/to/kubectl-completion.sh
+    chmod +x /path/to/kubectl-auto-completion.sh
     ```
 
 - **Suggestions are incomplete**:  
